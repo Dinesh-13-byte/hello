@@ -3,6 +3,6 @@ hellobt.addEventListener('click',inputmsg);
 
 
 function inputmsg(){
-    let name=prompt('ENter your name')
+    let name=prompt('Enter your name')
     hellobt.textContent=("Fuck you ! "+name);
 }
